@@ -26,10 +26,32 @@ To write a Python program that generates **Pascal's Triangle** using numbers. Th
 
 ---
 
-## 🧪 Program
-Add Code Here
+## 🧪 Program:
+```
+# Pascal's Triangle using loops
 
-## Sample Output
+n = int(input("Enter number of rows: "))
 
-## Result
+for i in range(n):
+    # Print spaces
+    for j in range(n - i - 1):
+        print(" ", end=" ")
+
+    # Compute values
+    num = 1
+    for j in range(i + 1):
+        print(num, end="   ")
+        num = num * (i - j) // (j + 1)
+
+    print()
+```
+
+## Sample Output:
+
+<img width="469" height="328" alt="image" src="https://github.com/user-attachments/assets/80474f84-3dcb-4f21-b62a-1d5cda666bae" />
+
+
+## Result:
+
+Thus, the Python program to generate Pascal’s Triangle for a given number of rows was successfully executed and verified.
 
