@@ -8,9 +8,26 @@ To write a Python program that defines a **lambda function** which takes two arg
 2. Use a **lambda function** to define a function `f` that returns `a + b`.
 3. Call the function with the user inputs and print the result.
 
-## 🧾 Program
-Add code here
+## 🧾 Program:
+```
+# Lambda function for addition
 
-## Output
+# Input from user
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
-## Result
+# Lambda function
+f = lambda a, b: a + b
+
+# Function call and print result
+print("Sum:", f(a, b))
+```
+
+## Output:
+
+<img width="489" height="249" alt="image" src="https://github.com/user-attachments/assets/1207c26e-c64f-448f-bb86-a0bcf5836cf1" />
+
+
+## Result:
+
+Thus, the Python program using a lambda function to add two numbers was successfully executed and verified.
