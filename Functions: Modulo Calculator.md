@@ -10,10 +10,26 @@ To write a Python program that defines a function which accepts two values and r
 4. Get two integer inputs from the user.
 5. Call the `result` function with the user-provided values.
 
-## 🧾 Program
+## 🧾 Program:
+```
+# Function to calculate modulo
 
-Add code Here
+def result(a, b):
+    print("Modulo:", a % b)
 
-## Output
+# Input from user
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
-## Result
+# Function call
+result(a, b)
+```
+
+## Output:
+
+<img width="428" height="241" alt="image" src="https://github.com/user-attachments/assets/088f46e3-ce69-4704-aef7-023937d2de4f" />
+
+
+## Result:
+
+Thus, the Python program to calculate the modulo of two numbers using a function was successfully executed and verified.
